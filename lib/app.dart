@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:socialroot/features/auth/bloc/auth_bloc.dart';
-import 'package:socialroot/features/auth/screens/login_screen.dart';
-
-void main() {
-  runApp(const MyApp());
-}
+import 'features/auth/bloc/auth_bloc.dart';
+import 'features/auth/screens/login_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -22,7 +18,7 @@ class MyApp extends StatelessWidget {
         child: LoginScreen(),
       ),
       routes: {
-        // '/home': (context) => const HomeScreen(),
+      //  '/home': (context) => const HomeScreen(),
       },
     );
   }
